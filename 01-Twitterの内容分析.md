@@ -110,8 +110,9 @@ kwic(toks, "レッドフレーム") %>%
 ```
 
 
-
+<!--
 ![kwic_redframe](http://t29.pixhost.to/thumbs/352/101284950_kwic_redframe.png)
+-->
 
 「レッドフレーム」と「改」が2つの単語にわかれているのがわかります。コロケーションを集計してみましょう。
 
@@ -121,7 +122,9 @@ textstat_collocations(toks, size = 2) %>%
     View()
 ```
 
+<!--
 ![collocation](http://t29.pixhost.to/thumbs/352/101284947_collocation.png)
+-->
 
 コロケーションはzの降順に並べています（zが何か知りたい人は{quanteda}のマニュアルを読みましょう）。ここでは「レッドフレーム改」や「斗和キセキ」などは一語として扱ってもよさそうなのでまとめて扱うことにします。
 
@@ -138,7 +141,9 @@ kwic(toks, "レッドフレーム_改") %>%
     View()
 ```
 
+<!--
 ![kwic_comp_redframe](https://t29.pixhost.to/thumbs/352/101284949_kwic_comp_redframe.png)
+-->
 
 コロケーションもあらためて集計してみます。
 
@@ -148,7 +153,9 @@ textstat_collocations(toks, size = 2) %>%
     View()
 ```
 
+<!--
 ![collocation_comp](https://t29.pixhost.to/thumbs/352/101284946_collacation_comp.png)
+-->
 
 しかし、このコロケーションの集計からはいまいち何が起きているのかわかりません。確認する共起関係のサイズをすこし大きくして、3-gramのワードクラウドを描いてみることにします。
 
@@ -164,7 +171,9 @@ tokens(corp, what = "fastestword", remove_punct = TRUE, remove_twitter = TRUE) %
     )
 ```
 
+<!--
 ![word_cloud](https://t29.pixhost.to/thumbs/352/101284961_wordcloud.png)
+-->
 
 ごちゃごちゃしていますが、「レッドフレーム改の次はエボルトになった」という話の片鱗が見えてきました。今度は3-gramの共起ネットワークを描いてみます。
 
@@ -178,7 +187,9 @@ tokens(corp, what = "fastestword", remove_punct = TRUE, remove_twitter = TRUE) %
     textplot_network(min_freq = 0.95, edge_size = 5)
 ```
 
+<!--
 ![network](http://t29.pixhost./thumbs/w/352/101284951_network.png)
+-->
 
 「斗和キセキがレッドフレーム改の次はエボルト扱いされている」らしいことがなんとなく見えてきた気がします。単純な頻度とはべつな角度からこうした共起関係が多く見られることを確認するために、アソシエーション分析をしてみましょう。
 
@@ -215,7 +226,9 @@ inspectDT(rules)
 
 [このように](https://paithiov909.github.io/zatsuniyaru/)「レッドフレーム改な斗和キセキがエボルトである」らしいことが確認できます。
 
+<!--
 ![inspect](https://t29.pixhost.to/thumbs/352/101284948_inspect.png)
+-->
 
 ## まとめ
 
