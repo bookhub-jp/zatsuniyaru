@@ -1,4 +1,4 @@
-# 1. Twitterの内容分析
+# 2. Twitterの内容分析
 
 ## このセクションでやること
 
@@ -176,7 +176,7 @@ tokens(corp, what = "fastestword", remove_punct = TRUE, remove_twitter = TRUE) %
     textplot_network(min_freq = 0.95, edge_size = 5)
 ```
 
-![network](http://t29.pixhost./thumbs/w/352/101284951_network.png)
+![network](https://t29.pixhost.to/thumbs/352/101284951_network.png)
 
 「斗和キセキがレッドフレーム改の次はエボルト扱いされている」らしいことがなんとなく見えてきた気がします。単純な頻度とはべつな角度からこうした共起関係が多く見られることを確認するために、アソシエーション分析をしてみましょう。
 
