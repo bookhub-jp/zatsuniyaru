@@ -1,12 +1,1 @@
-# History files
-/R/.Rhistory
-/R/.Rapp.history
-
-# Session Data files
-/R/.RData
-
-# RStudio files
-/R/.Rproj.user/
-
-# OAuth2 token, see https://github.com/hadley/httr/releases/tag/v0.3
-/R/.httr-oauth
+/R/
