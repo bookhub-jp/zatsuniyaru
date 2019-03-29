@@ -213,7 +213,7 @@ rules <- apriori(
 inspectDT(rules)
 ```
 
-[このように]()「レッドフレーム改な斗和キセキがエボルトである」らしいことが確認できます。
+[このように](https://paithiov909.github.io/zatsuniyaru/)「レッドフレーム改な斗和キセキがエボルトである」らしいことが確認できます。
 
 ![inspect](.\R\graphs\inspect.png)
 
