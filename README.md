@@ -1,7 +1,14 @@
 # Rによる雑にやるテキストマイニング
 
-[Gitbook](https://paithiov.gitbook.io/zatsuniyaru/)
+[GitHub](https://github.com/paithiov909/zatsuniyaru)
+[GitBook](https://paithiov.gitbook.io/zatsuniyaru/)
 
-Galley
+
+Pixhost Gallery
 
 - https://pixhost.to/gallery/eYicS
+
+
+Copyright (c) 2019 Nakazato Subaru
+Released under the MIT license
+https://github.com/paithiov909/zatsuniyaru/LICENSE

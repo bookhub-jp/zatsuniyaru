@@ -44,6 +44,9 @@ library(feather)
 library(rtweet)
 library(quanteda)
 library(ggpubr)
+library(recommenderlab)
+library(arules)
+library(arulesViz)
 ```
 
 なお、{rtweet}については現在は開発用アカウントを取らなくても使えるようになっています。[Githubリポジトリ](https://github.com/mkearney/rtweet#api-authorization)に次のように書かれているので確認してください。
