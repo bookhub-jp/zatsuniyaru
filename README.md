@@ -1,4 +1,4 @@
-# zatsuniyaru
+# Rによる雑にやるテキストマイニング
 
 Galley
 
