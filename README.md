@@ -3,7 +3,7 @@
 Copyright (c) 2019 Nakazato Subaru
 
 Released under the MIT license
-https://github.com/paithiov909/zatsuniyaru/LICENSE
+https://github.com/paithiov909/zatsuniyaru/blob/master/LICENSE
 
 - [GitHub](https://github.com/paithiov909/zatsuniyaru)
 - [GitBook](https://paithiov.gitbook.io/zatsuniyaru/)
